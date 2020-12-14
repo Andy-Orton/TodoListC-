@@ -1,6 +1,5 @@
 #include "Sort.h"
 
-//sorts my todos
 void sort(std::vector<TodoItem>& tasks)
 {
 	TodoItem min = tasks[0];
@@ -15,8 +14,6 @@ void sort(std::vector<TodoItem>& tasks)
 		}
 	}
 }
-
-//swaps two todo items by reference
 void swap(TodoItem& first, TodoItem& second)
 {
 	TodoItem temp = first;
